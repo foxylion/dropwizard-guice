@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>de.jakobjarosch.dropwizard</groupId>
+	<artifactId>dropwizard-guice</artifactId>
+	<version>0.9.2-1</version>
+
+	<name>Dropwizard Guice Intergration</name>
+	<description>A minimalistic integration of guice and dropwizard.</description>
+	<url>https://github.com/foxylion/dropwizard-guice</url>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Jakob Jarosch</name>
+			<email>dev@jakobjarosch.de</email>
+			<organizationUrl>https://www.jakobjarosch.de/</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git@github.com:foxylion/dropwizard-guice.git</connection>
+		<developerConnection>scm:git@github.com:foxylion/dropwizard-guice.git</developerConnection>
+		<url>https://github.com/foxylion/dropwizard-guice</url>
+	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.dropwizard</groupId>
+			<artifactId>dropwizard-core</artifactId>
+			<version>0.9.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.dropwizard</groupId>
+			<artifactId>dropwizard-jdbi</artifactId>
+			<version>0.9.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>4.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.guava</groupId>
+					<artifactId>guava</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject.extensions</groupId>
+			<artifactId>guice-servlet</artifactId>
+			<version>4.0</version>
+		</dependency>
+	</dependencies>
+</project>
