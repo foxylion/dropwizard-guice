@@ -16,7 +16,8 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<gpg.keyname>EF40A3DB</gpg.keyname>
+				<gpg.executable>gpg</gpg.executable>
+				<gpg.keyname>69F53530</gpg.keyname>
 				<gpg.passphrase>${env.MAVEN_GPG_PASSPHRASE}</gpg.passphrase>
 			</properties>
 		</profile>
