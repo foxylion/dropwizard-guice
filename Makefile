@@ -1,6 +1,6 @@
 
 build:
-	cd dropwizard-guice && mvn package
+	cd dropwizard-guice && mvn install
 	cd dropwizard-guice-example && mvn package
 
 travis-deploy:
