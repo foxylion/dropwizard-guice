@@ -1,5 +1,6 @@
 target/
 .settings/
+.vagrant/
 .project
 .classpath
 pom.xml.versionsBackup
