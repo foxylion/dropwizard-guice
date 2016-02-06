@@ -6,31 +6,6 @@
 	<artifactId>dropwizard-guice-example</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
-	<name>Dropwizard Guice Intergration Example</name>
-	<description>Example usage of the minimalistic integration of guice and dropwizard.</description>
-	<url>https://github.com/foxylion/dropwizard-guice</url>
-
-	<licenses>
-		<license>
-			<name>The Apache License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-		</license>
-	</licenses>
-
-	<developers>
-		<developer>
-			<name>Jakob Jarosch</name>
-			<email>dev@jakobjarosch.de</email>
-			<organizationUrl>https://www.jakobjarosch.de/</organizationUrl>
-		</developer>
-	</developers>
-
-	<scm>
-		<connection>scm:git@github.com:foxylion/dropwizard-guice.git</connection>
-		<developerConnection>scm:git@github.com:foxylion/dropwizard-guice.git</developerConnection>
-		<url>https://github.com/foxylion/dropwizard-guice</url>
-	</scm>
-
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
