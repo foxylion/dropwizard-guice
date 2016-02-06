@@ -1,6 +1,6 @@
 # Guice intergration for Dropwizard
 
-![Build Status](https://api.travis-ci.org/foxylion/dropwizard-guice.svg) [![Maven Version](https://maven-badges.herokuapp.com/maven-central/de.jakobjarosch.dropwizard/dropwizard-guice/badge.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22de.jakobjarosch.dropwizard%22%20AND%20a%3A%22dropwizard-guice%22)
+[![Build Status](https://api.travis-ci.org/foxylion/dropwizard-guice.svg)](https://travis-ci.org/foxylion/dropwizard-guice) [![Maven Version](https://maven-badges.herokuapp.com/maven-central/de.jakobjarosch.dropwizard/dropwizard-guice/badge.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22de.jakobjarosch.dropwizard%22%20AND%20a%3A%22dropwizard-guice%22)
 
 
 A **minimalistic integration** between the dependency injection framework **[Guice](https://github.com/google/guice)** and the microservice framework **[Dropwizard](http://www.dropwizard.io/)**.
