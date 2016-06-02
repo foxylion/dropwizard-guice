@@ -2,9 +2,9 @@ package de.jakobjarosch.dropwizard.guice.example.config;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import de.jakobjarosch.dropwizard.guice.GuiceConfiguration;
+import io.dropwizard.Configuration;
 
-public class ExampleConfiguration extends GuiceConfiguration {
+public class ExampleConfiguration extends Configuration {
 
 	@JsonProperty(defaultValue = "Hello World!")
 	String greeting;
