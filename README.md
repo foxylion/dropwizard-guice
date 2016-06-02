@@ -17,7 +17,7 @@ This integration aims to introduce minimal effort to get started
 <dependency>
     <groupId>de.jakobjarosch.dropwizard</groupId>
     <artifactId>dropwizard-guice</artifactId>
-    <version>{{ current-version }</version>
+    <version>{{ current-version }}</version>
 </dependency>
 ```
 
